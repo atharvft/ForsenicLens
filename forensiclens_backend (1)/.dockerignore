@@ -1,0 +1,61 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Environment files
+.env
+.env.local
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+*.swp
+
+# Documentation
+README.md
+DOCS.md
+
+# Tests
+tests/
+.pytest_cache/
+.coverage
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
+
+# Uploads (will be mounted as volume)
+uploads/
+
+# Models (will be mounted as volume)
+models/
+
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+*.tmp
+*.bak

@@ -1,0 +1,62 @@
+.
+├── CONTRIBUTING.md
+├── Dockerfile
+├── PROJECT_STRUCTURE.txt
+├── QUICKSTART.md
+├── QUICKSTART.pdf
+├── README.md
+├── alembic
+│   ├── env.py
+│   ├── script.py.mako
+│   └── versions
+├── alembic.ini
+├── app
+│   ├── __init__.py
+│   ├── ai_engine
+│   │   ├── __init__.py
+│   │   ├── anomaly_detector.py
+│   │   └── upscaler.py
+│   ├── api
+│   │   ├── __init__.py
+│   │   ├── dependencies
+│   │   ├── endpoints
+│   │   └── router.py
+│   ├── core
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   │   └── security.py
+│   ├── db
+│   │   ├── __init__.py
+│   │   ├── base.py
+│   │   └── session.py
+│   ├── main.py
+│   ├── models
+│   │   ├── __init__.py
+│   │   ├── photo.py
+│   │   ├── processing_result.py
+│   │   └── user.py
+│   ├── schemas
+│   │   ├── __init__.py
+│   │   ├── photo.py
+│   │   ├── processing_result.py
+│   │   └── user.py
+│   ├── services
+│   │   ├── __init__.py
+│   │   ├── auth_service.py
+│   │   ├── photo_service.py
+│   │   └── processing_service.py
+│   └── utils
+│       ├── __init__.py
+│       └── file_handler.py
+├── docker-compose.yml
+├── forensiclens_colab.ipynb
+├── requirements.txt
+├── run.sh
+├── run_colab.py
+├── tests
+│   └── __init__.py
+└── uploads
+    ├── original
+    └── processed
+
+18 directories, 42 files
